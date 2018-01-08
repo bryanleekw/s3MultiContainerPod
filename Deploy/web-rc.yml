@@ -20,7 +20,7 @@ spec:
                 name: redis
                 protocol: TCP
           - name: python
-            image: janakiramm/py-red
+            image: bryanmunich/s3multi-container-pod:latest
             env:       
               - name: "REDIS_HOST"
                 value: "localhost"
